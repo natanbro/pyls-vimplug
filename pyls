@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+cd $(dirname $0)
+source ./venv/bin/activate
+cd ./venv
+exec ./bin/pyls "$@"
